@@ -1,0 +1,107 @@
+#pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+  background: #6696E2;
+
+  >h1 {
+    margin-top: 100px;
+  }
+
+  .line-4 {
+    width: 70px;
+    height: 2px;
+    background: #41D395;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .xd {
+    margin-bottom: 90px;
+  }
+
+  >h1,
+  >p {
+    color: white;
+    text-align: center;
+  }
+
+  .price-cards {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+
+    #stipriausia {
+      height: 514px;
+      transform: translateY(-33px);
+    }
+
+    .price {
+      max-width: 340px;
+      height: 480px;
+      background: white;
+      border-radius: 8px;
+      margin-bottom: 110px;
+
+      #stipru {
+        padding-bottom: 40px;
+      }
+
+      #stipriau {
+        padding-bottom: 40px;
+      }
+
+      .dark-part {
+        height: 210px;
+        background: #333333;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        text-align: center;
+
+        .balshoi {
+          color: white;
+          font-size: 20px;
+          padding-top: 14px;
+        }
+
+        .amount {
+          font-size: 94px;
+          color: white;
+
+          .dolla {
+            font-size: 35px;
+          }
+        }
+
+        .smol {
+          font-size: 14px;
+          color: #41D395;
+          opacity: 0.5;
+        }
+
+        .green {
+          max-width: 340px;
+          height: 6px;
+          background: #41D395;
+          transform: translateY(33px);
+        }
+      }
+
+      #lighter {
+        p {
+          margin-top: 35px;
+        }
+      }
+
+      .light {
+        p {
+          text-align: center;
+          color: #86878B;
+          line-height: 45px;
+          padding: 0px 70px;
+        }
+      }
+    }
+  }
+}

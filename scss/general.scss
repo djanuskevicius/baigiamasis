@@ -1,0 +1,14 @@
+* {
+  @include reset-list;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  >h1 {
+    display: none;
+    font-size: 80px;
+    background: red;
+    color: peachpuff;
+  }
+}

@@ -1,0 +1,74 @@
+#reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .line-5 {
+    width: 70px;
+    height: 2px;
+    background: #6696E2;
+    margin-bottom: 80px;
+  }
+
+  .rev {
+    display: flex;
+    gap: 120px;
+    margin-bottom: 150px;
+
+    .card:nth-of-type(2) {
+      margin-top: 38px;
+    }
+
+    .bubble {
+      position: relative;
+      width: 250px;
+      background: #6696E2;
+      border-radius: 8px;
+
+      &::after {
+        position: absolute;
+        content: "";
+        background: #6696E2;
+        height: 25px;
+        width: 25px;
+        transform: rotate(45deg) translate(10px, -40px);
+      }
+
+      p {
+        padding: 20px;
+        color: white;
+      }
+    }
+
+    .user {
+      display: flex;
+      margin-top: 20px;
+      margin-left: 15px;
+      font-size: 20px;
+      line-height: 20px;
+
+      p {
+        margin-left: 10px;
+        margin-top: 15px;
+
+        span {
+          font-size: 14px;
+          color: #86878B;
+        }
+      }
+
+      img {
+        height: 70px;
+        width: 70px;
+      }
+    }
+  }
+}

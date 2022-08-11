@@ -1,0 +1,27 @@
+footer {
+  background: #1C1C1C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  max-width: 100vw;
+
+  .left-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-left: 140px;
+
+    img {
+      height: 20px;
+    }
+  }
+
+  .copyright {
+    font-size: 18px;
+    opacity: 0.5;
+    color: white;
+    margin-right: 140px;
+  }
+}

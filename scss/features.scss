@@ -1,0 +1,134 @@
+#features {
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, rgba(102, 150, 226, 0.42), rgba(226, 120, 102, 0.42)), url(/app/images/bg-photo-2.png);
+    background-position: 0 -650px;
+    height: 600px;
+
+    .square {
+      text-align: center;
+      line-height: 100px;
+      width: 100px;
+      color: white;
+      background: #A37169;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      &:hover {
+        background: #E27866
+      }
+
+      .rotate {
+        transform: rotate(-45deg);
+      }
+    }
+
+    .text-2 {
+      width: 510px;
+      margin: 0 80px 0 60px;
+
+      h1 {
+        color: white;
+        font-size: 36px;
+      }
+
+      p {
+        margin-top: 35px;
+        color: white;
+      }
+    }
+
+    .img {
+      width: 350px;
+
+      img {
+        width: 170px;
+        height: 170px;
+      }
+
+      .bottom-img {
+        max-width: 340px;
+        max-height: 170px;
+      }
+    }
+
+
+  }
+
+  .bottom {
+    background: #1C1C1C;
+    color: white;
+    height: 600px;
+    display: flex;
+
+    .big-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50vw;
+
+      img {
+        height: 180px;
+      }
+    }
+
+    .big-text {
+      margin: auto;
+    }
+
+    h1 {
+      width: 320px;
+    }
+
+    .upper-text {
+      width: 450px;
+      font-size: 14px;
+    }
+
+    .circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background: #E27866;
+      border-radius: 100%;
+
+      img {
+        height: 30px;
+      }
+    }
+
+    .photo-text {
+      display: flex;
+      margin: 50px 0;
+      gap: 20px;
+    }
+
+    .float-text {
+      // float: right;
+      width: 400px;
+      font-size: 14px;
+    }
+
+    .big-text {
+      width: 50vw;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .line-2 {
+      height: 2px;
+      width: 200px;
+      margin-bottom: 27px;
+      background: #E27866;
+    }
+  }
+}
